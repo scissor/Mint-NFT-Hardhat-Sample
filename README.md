@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# Features
+- Deploy & Mint NFT to different network
+- Use dotenv to seperate networks
+- Use IPFS image & metadata
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Demo
+<img width="512" alt="anya-forger-bored-ape" src="https://user-images.githubusercontent.com/489849/171120284-3e297dff-dc7e-48d2-8c94-6c6a1dd4448f.png">
 
-Try running some of the following tasks:
+
+# Quickstart
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
